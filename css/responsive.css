@@ -1,0 +1,117 @@
+@media(max-width:1920px){}
+@media(max-width:1440px){}
+@media(max-width:1280px){}
+@media(max-width:1024px){}
+@media(max-width:768px){}
+@media(max-width:480px){}
+
+
+@media(max-width:320px){
+    /* Etiquetas por defecto */
+    a{
+        text-decoration: none;
+        color: var(--primary-color);
+        margin: 5px 6px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    /* Main */
+    main{
+        margin: 1rem;
+        padding: 1rem;
+        width: 90%;
+    }
+
+    /* Header */
+    header{
+        padding: 2rem 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    
+
+    /* Cada subseccion con titulo y barra blanca */
+    .titulobarra{
+        width:94%;
+        padding: 1px;
+        margin: 4rem 1rem;
+    }
+
+    /* Contenedor blanco */
+    .container-blanco{
+        background-color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        border: none;
+        padding: 5px 4px;
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    /* Clases */
+.supryze{
+    color: var(--tertiary-color);
+    font-weight: 600;
+}
+
+.download-button{
+    background-color: var(--secondary-color);
+    border: 2px solid var(--tertiary-color);
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 5px 12px;
+}
+
+.register-button{
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--tertiary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 5px 12px;
+}
+
+.left{
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.center{}
+
+.right{
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+
+.estrella-exterior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--tamanio-estrella);
+    height: var(--tamanio-estrella);
+    background: var(--icon-color1);        
+}
+
+.estrella-interior {
+    width: calc(var(--tamanio-estrella ) * 0.6);
+    height: calc(var(--tamanio-estrella ) * 0.6);
+}
+
+
+}
