@@ -67,8 +67,10 @@ main{
 
 /* Header */
 header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     padding: 2rem 1rem;
-    /* border: red solid 1px; */
     margin-bottom: 1rem;
 }
 

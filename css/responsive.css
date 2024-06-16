@@ -15,7 +15,7 @@
     }
 
     h1{
-        font-size: 48px;
+        font-size: 46px;
     }
 
     h2{
@@ -88,7 +88,13 @@
     justify-content: space-between;
     padding: 15px 0px;
 }
-.center{}
+
+/* Barra de busqueda */
+.search-container {
+    position: relative;
+    width: 220px;
+    /* margin: 20px auto; */
+}
 
 .right{
     margin-right: 0;
