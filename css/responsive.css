@@ -2,7 +2,90 @@
 @media(max-width:1440px){}
 @media(max-width:1280px){}
 @media(max-width:1024px){}
-@media(max-width:768px){}
+@media(max-width:768px){
+    /* Etiquetas por defecto */
+    a{
+        margin: 5px 6px;
+    }
+
+    h1{
+        font-size: 66px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    /* Main */
+    main{
+        margin: 1rem;
+        padding: 1rem;
+        width: 90%;
+    }
+
+    /* Header */
+    header{
+        padding: 2rem 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Cada subseccion con titulo y barra blanca */
+    .titulobarra{
+        width:94%;
+        padding: 1px;
+        margin: 4rem 1rem;
+    }
+
+    /* Contenedor blanco */
+    .container-blanco{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 4px;
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    /* Clases */
+    .supryze{
+        font-weight: 600;
+    }
+
+    .download-button{
+        border-radius: 7px;
+        padding: 5px 12px;
+    }
+
+    .register-button{
+        border-radius: 7px;
+        padding: 5px 12px;
+    }
+
+    .left{
+        margin-left: 0px;
+        padding: 5px 0px;
+        padding-bottom: 5px;
+    }
+
+    /* Barra de busqueda */
+    .search-container {
+        position: relative;
+        width: 310px;
+        margin: 0px 0px;
+        margin-left: 50px;
+    }
+
+    .right{
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+}
+
 @media(max-width:480px){
     /* Etiquetas por defecto */
     a{
@@ -81,18 +164,6 @@
         align-items: center;
         padding: 5px 0px;
     }
-
-
-    .estrella-exterior {
-        width: var(--tamanio-estrella);
-        height: var(--tamanio-estrella);     
-    }
-
-    .estrella-interior {
-        width: calc(var(--tamanio-estrella ) * 0.6);
-        height: calc(var(--tamanio-estrella ) * 0.6);
-    }
-
 }
 
 
